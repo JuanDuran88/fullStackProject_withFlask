@@ -1,0 +1,29 @@
+html,
+body {
+    background-color: navy;
+}
+
+p {
+    color: #F28D8E;
+}
+
+h1,
+a {
+    color: #BA3926;
+}
+
+h2 {
+    color: #fff8;
+}
+
+h3 {
+    color: #fffa33;
+}
+
+.pp {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 250px;
+}

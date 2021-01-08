@@ -1,0 +1,18 @@
+{% extends "structure.html" %} {% block main %}
+<form action="/signup" method="post" class="form-signin">
+    <img class="mb-4" src="/static/img/ben-o-bro-wpU4veNGnHg-unsplash.jpg" alt="" width="250" height="200">
+    <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+    <label for="inputEmail" class="sr-only">Username</label>
+    <input type="text" id="inputEmail" class="form-control" placeholder="Username" name="username" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+    <label for="inputPassword" class="sr-only">Favorite Color</label>
+    <input type="text" id="inputPassword" class="form-control" placeholder="Favorite color" name="favorite_color" required>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p>{{ message }}</p>
+
+    <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+</form>
+
+{% endblock main %}
